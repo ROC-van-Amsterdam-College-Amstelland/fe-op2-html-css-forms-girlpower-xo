@@ -1,0 +1,49 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-top: -100px;
+    
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color:white;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    width: 60%;
+    margin-left: 90px;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid black;
+    width: 30%;
+    height: 500px;
+    background-color: dimgrey;
+    
+
+}
+
+p{
+    width: ;
+    margin-top: 5px;
+    color: white;
+}
+button{
+    color:white;
+    background-color: blue;
+    margin: 20px;
+}
+
+.wwvergeten{
+    color: blue;
+}
