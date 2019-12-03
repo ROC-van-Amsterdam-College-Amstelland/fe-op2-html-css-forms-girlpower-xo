@@ -1,27 +1,35 @@
-h1{
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: -200px;
-    
-    
+    margin-top: -150px;  
 }
-h3{
+
+h3 {
     display: flex;
     justify-content: center;
     color: white;
     margin-top: -10px; 
 }
 
-.container{
+input {
+    margin: 5px;
+}
+
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 60%;
     margin-left: 90px;
-
 }
-.main-container{
+
+.main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,12 +37,22 @@ h3{
     width: 450px;
     height: 500px;
     background-color: lightgrey;
-    
-
 }
 
-button{
+button {
     background-color: blue;
     color: white;
-  
+    width: 100%;
+    height: 40px;
 }
+input {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#akoord {
+    padding: 0;
+    width: 18px;
+    height: 18px;
+}
+
